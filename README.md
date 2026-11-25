@@ -20,3 +20,11 @@ Open `http://localhost:8080`. The page should display **Hello from inside a Dock
 ### Submission evidence
 
 ![Firefox displaying the Docker web app at localhost:8080](docs/project-1b-docker-browser.png)
+
+## Project 3 — Database Schema & ERD
+
+[View the submitted ERD (PDF)](docs/project-3-database-erd.pdf)
+
+I translated an application form into a relational schema. The design maps all 11 fields, uses foreign keys for lookup values, and models an agent's multiple affiliations through a junction table with a composite primary key that prevents duplicate selections.
+
+The diagram documents which rules belong in the database and which require application or transaction logic, including the requirement that a submitted application have at least one affiliation. It also identifies server-side validation, parameterized SQL, and access controls as implementation requirements. The deliverable is a schema design.
